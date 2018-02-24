@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+d = {'Michael': 95,'Bob': 75, 'Tracy': 85}
+print(d['Michael'])
+
+d['Michael'] = 100
+print(d['Michael'])
+
+x = 'Michael' in d
+print('是否包含key Michael',x)
+
+print('是否包含key Michaels',d.get('Michaels'))
+
+d.pop('Michael')
+print('移除Michael之后->',d)
