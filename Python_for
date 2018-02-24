@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+names = ['Michael','Bob','Tracy']
+for name in names:
+    print('当前元素',name)
+
+sum = 0
+for x in range(0,101):
+    sum += x
+print('总和->',sum)
+print(range(0,101))
